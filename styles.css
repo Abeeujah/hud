@@ -1,0 +1,507 @@
+
+@media (min-width: 481px) and (max-width: 1440px) {
+    a {
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-weight: 700;
+    }
+    
+    body {
+        font-family: 'Open Sans';
+        font-weight: 400;
+    }
+    
+    button {
+        font-family: 'Open Sans';
+        font-weight: 700;
+    }
+    
+    
+    
+    
+    h1,
+    h2 {
+        font-family: 'Poppins';
+        font-weight: 600;
+    }
+    
+    header {
+        background: url('images/bg-hero-desktop.svg'), hsl(193, 100%, 96%);
+        padding: 2rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    p {
+        font-family: 'Open Sans';
+        font-weight: 700;
+    }
+    
+    .top {
+        padding-bottom: 30px;
+    }
+    
+    .top img {
+        margin: 0 2rem;
+        padding: 20px;
+    }
+    
+    
+    .top button {
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 13px 2rem;
+        float: right;
+        text-align: center;
+        text-decoration: none;
+        width: 13%;
+    
+        cursor: pointer;
+        border-radius: 2rem;
+    }
+    
+    .first {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        margin: 2rem;
+    }
+    
+    .one {
+        width: 50%;
+        padding-right: 1rem;
+    
+        text-align: left;
+    }
+    
+    #bfn {
+        background-color: hsl(322, 100%, 66%);
+        color: white
+    }
+    
+    .two {
+        width: 50%;
+        text-align: right;
+        padding-left: 1rem;
+    
+    }
+    
+    .btn {
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 1rem 3.5rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    
+        cursor: pointer;
+        border-radius: 2rem;
+    }
+    
+    
+    .lol {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: -1rem;
+    }
+    
+    .grow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 4rem;
+        border-radius: 1rem;
+        
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    
+    .tog {
+        width: 50%;
+        padding: 4rem;
+    }
+    
+    .well {
+        width: 50%;
+        padding: 4rem;
+    
+    }
+    
+    .well img {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ready {
+    
+        text-align: center;
+        width: fit-content;
+        height: 10rem;
+        margin: 7rem auto -1rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        position: relative;
+        z-index: 2;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    
+    .promo {
+        position: relative;
+        max-width: 100%;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: #fff;
+        padding: 60px 0;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 1rem;
+        margin-bottom: -4rem;
+        margin-top: 7rem;
+    }
+    
+    .promo h2 {
+        margin-bottom: 15px;
+    }
+    
+    footer {
+        background: transparent;
+        background-color: hsl(192, 100%, 9%);
+        padding: 4rem;
+        padding-top: 8rem;
+        margin-top: -1rem;
+        z-index: 1;
+    
+    }
+    
+    .footermain {
+        display: flex;
+        width: 100%;
+        color: white;
+        margin: 1rem 3rem;
+    }
+    
+    .footermain a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .yes {
+        width: 25%;
+    }
+    
+    .icons,
+    .socs {
+        display: flex;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    
+    .icons img {
+        margin-right: 1rem;
+    }
+    
+    .bout,
+    .blog {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .socs {
+        display: flex;
+        flex-direction: row;
+        padding: 0 2rem;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+    .right {
+        text-align: right;
+        color: white;
+    }
+    
+}
+
+@media (min-width: 240px) and (max-width: 480px) {
+    a {
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-weight: 700;
+    }
+
+    body {
+        font-family: 'Open Sans';
+        font-weight: 400;
+    }
+
+    button {
+        font-family: 'Open Sans';
+        font-weight: 700;
+    }
+
+
+    h1,
+    h2 {
+        font-family: 'Poppins';
+        font-weight: 600;
+    }
+
+    header {
+        background: url('images/bg-hero-mobile.svg'), hsl(193, 100%, 96%);
+        padding: 1rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
+        font-family: 'Open Sans';
+        font-weight: 700;
+    }
+
+    .top {
+        display: flex;
+        padding-bottom: 30px;
+    }
+
+    .top img {
+        margin: 0 0rem;
+
+    }
+
+    .top button {
+        background-color: white;
+        border: none;
+        color: black;
+        
+        float: right;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        top: 0;
+        cursor: pointer;
+        border-radius: 2rem;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .one {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+
+    #bfn {
+        background-color: hsl(322, 100%, 66%);
+        color: white
+    }
+
+    .two {
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .btn {
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 1rem 3.5rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+
+        cursor: pointer;
+        border-radius: 2rem;
+    }
+
+
+    .lol {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: -1rem;
+    }
+
+    .grow {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 1rem;
+        border-radius: 1rem;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    .odd {
+        flex-direction: column;
+    }
+
+    .tog {
+        width: 100%;
+        padding: 4rem;
+        text-align: center;
+    }
+
+    .well {
+        width: 100%;
+        padding: 4rem;
+
+    }
+
+    .well img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ready {
+
+        text-align: center;
+        width: fit-content;
+        height: 10rem;
+        margin: 7rem auto -1rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        position: relative;
+        z-index: 2;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    .promo {
+        position: relative;
+        max-width: 100%;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        background-color: #fff;
+        padding: 60px 0;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 1rem;
+        margin-bottom: -4rem;
+        margin-top: 7rem;
+    }
+
+    .promo h2 {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        background: transparent;
+        background-color: hsl(192, 100%, 9%);
+        padding: 4rem 0;
+        padding-top: 8rem;
+        margin-top: -1rem;
+        z-index: 1;
+
+    }
+
+    .footermain {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: white;
+        margin: 1rem 1rem;
+    }
+
+    .footermain a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .yes {
+        width: 100%;
+    }
+
+    .icons,
+    .socs {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .icons img {
+        margin-right: 1rem;
+    }
+
+    .bout,
+    .blog {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .socs {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .right {
+        text-align: center;
+        color: white;
+    }
+
+}
+
+button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.grow:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.promo:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.one:hover{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.two:hover{
+    padding-right: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
